@@ -1,7 +1,7 @@
 class Ship {
     constructor(length) {
         this.length = length;
-        this.hits = hits;
+        this.hits = 0;
         this.sunk = false;
     }
 
@@ -16,3 +16,5 @@ class Ship {
         return this.sunk;
     }
 }
+
+module.exports = Ship;
